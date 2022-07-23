@@ -1,0 +1,284 @@
+body{
+    background-image: url("bg.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #222222;
+    font-style: italic;
+    font-weight: bolder;
+    border-bottom-style: dotted;
+    border-left-style: groove;
+    border-right-style: groove;
+    border-bottom-width: 3px;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+    text-shadow: 0px 0px 5px orange , 3px -3px 5px red;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#h1:hover{
+    box-shadow: 3px 7px 3px gray;
+}
+
+#div1{
+    font-family: 'Edu VIC WA NT Beginner', 'Mali','Edu NSW ACT Foundation', 'Edu TAS Beginner'
+    , 'Edu QLD Beginner', 'Edu SA Beginner', sans-serif;
+    font-size: 23px;
+    margin: 20px;
+}
+#p1{
+    background:linear-gradient(to right, rgb(82, 82, 82), rgb(161, 161, 161));
+    padding: 5px;
+    padding-left: 5px;
+}
+
+#p2{
+    background:linear-gradient(to left, rgb(82, 82, 82), rgb(161, 161, 161));
+    padding: 5px;
+    padding-left: 5px;
+}
+
+#animationbox{
+    border: black solid;
+    width: 200px;
+    height: 200px;
+    font-size: 50px;
+
+    text-align: center;
+    background-color: red;
+    margin-left: auto;
+    margin-right: auto;
+    animation: 5s linear 1s infinite running myanimation;
+}
+
+@keyframes myanimation{
+    from{margin-left: 0%;}
+    to{margin-left:100%;}
+    50%{opacity: 0%;}
+    50%{transform: scale(0.5,0.5);}
+    20%{background-color:orangered ;}
+    40%{background-color: yellow;}
+    60%{background-color: green;}
+    80%{background-color: blue;}
+    100%{background-color: purple;}
+}
+
+#float{
+    text-align: center;
+}
+
+#img1{
+    width: 300px;
+    height: 200px;
+    float: left;
+    padding: 20px;
+    transform: translateX(-10px);
+}
+
+#img2{
+    width: 250px;
+    height: 300px;
+    float: right;
+    padding: 20px;
+    transform: translateX(10px);
+}
+
+#img3{
+    width: 300px;
+    height: 250px;
+    float: right;
+    padding: 20px;
+}
+
+#img4{
+    width: 300px;
+    height: 300px;
+    float: left;
+    padding: 20px;
+}
+
+#img5{
+    width: 300px;
+    height: 220px;
+    float: right;
+    padding: 20px;
+    transform: translateY(-50px);
+}
+
+.img6{
+    width: 250px;
+    height: 250px;
+    padding: 20px;
+    float: left;
+    transform: translateY(50px);
+}
+
+#img6{
+    width: 250px;
+    height: 250px;
+    padding: 20px;
+    transform: translateY(-45px);
+}
+
+.img7{
+    width: 250px;
+    height: 250px;
+    padding: 20px;
+    transform: translateX(175px);
+}
+
+.img8{
+    width: 250px;
+    height: 250px;
+    padding: 20px;
+    float: right;
+}
+
+#img9{
+    width: 250px;
+    height: 250px;
+    padding: 20px;
+}
+
+#img10{
+    width: 250px;
+    height: 150px;
+    padding: 20px;
+    transform: translateY(-45px);
+}
+
+#img11{
+    width: 250px;
+    height: 200px;
+    padding: 20px;
+}
+
+#img12{
+    width: 250px;
+    height: 175px;
+    padding: 20px;
+}
+
+#vid13{
+    width: 150px;
+    height: 250px;
+    padding: 20px;
+    transform: translateX(100px);
+}
+
+#img14{
+    width: 250px;
+    height: 250px;
+    padding: 20px;
+    transform: translateX(100px);
+}
+
+#img15{
+    width: 250px;
+    height: 250px;
+    padding: 20px;
+    transform: translateX(100px);
+}
+
+#vid16{
+    width: 150px;
+    height: 250px;
+    padding: 20px;
+    transform: translateX(100px);
+}
+
+#img17{
+    width: 250px;
+    height: 250px;
+    padding: 20px;
+    float: right;
+}
+
+
+#div2{
+    margin-left: 60px;
+    margin-right: 60px;
+    font-family: 'Edu VIC WA NT Beginner', 'Mali','Edu NSW ACT Foundation', 'Edu TAS Beginner'
+    , 'Edu QLD Beginner', 'Edu SA Beginner', sans-serif;
+    font-size: 24px;
+}
+
+#counter{
+    text-align: center;
+    font-size: 50px;
+    display: block;
+    border: 2px dotted gray;
+    width: 220px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#decrease{
+    background-color: rgb(153, 152, 152);
+    margin-right: 5px;
+    width: 75px;
+}
+#decrease:hover{
+    box-shadow: 3px 3px 3px #222222;
+    text-shadow: 0px 0px 5px red;
+}
+
+#decrease:active{
+    background-color: rgb(238, 67, 67);
+}
+
+#reset{
+    background-color: rgb(153, 152, 152);
+    margin-right: 5px;
+    width: 75px
+}
+#reset:hover{
+    box-shadow: 3px 3px 3px #222222;
+    text-shadow: 0px 0px 5px #222222;
+}
+
+#reset:active{
+    background-color: rgb(163, 159, 159);
+}
+
+#increase{
+    background-color: rgb(153, 152, 152);
+    width: 75px;
+}
+#increase:hover{
+    box-shadow: 3px 3px 3px #222222;
+    text-shadow: 0px 0px 5px green;
+}
+
+#increase:active{
+    background-color: rgb(36, 255, 54);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
